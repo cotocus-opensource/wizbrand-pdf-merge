@@ -1,0 +1,249 @@
+html {
+            font-family: 'Poppins';
+            background: #340035;
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+
+        .disabled {
+            pointer-events: none;
+            color: #aaaaaa8f !important;
+        }
+
+        .nav {
+
+            left: 144px;
+            top: 39px;
+            display: flex;
+            padding: 25px;
+            position: absolute;
+            flex-direction: row;
+            align-items: center;
+            gap: 535px;
+            justify-items: center;
+        }
+
+        .navico {
+            margin: 0;
+            font-size: 2.2em;
+            color: white;
+        }
+
+        .opts {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            right: 143px;
+            top: 53.5px;
+            flex-direction: row;
+            display: flex;
+            gap: 20px;
+        }
+
+        .optin {
+            font-size: 1.2em;
+            color: white;
+            width: max-content;
+            text-decoration: none;
+        }
+
+        .upbox {
+            box-sizing: border-box;
+            justify-content: center;
+            align-content: center;
+            margin: auto;
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            padding: 20px;
+            height: max-content;
+            left: calc(50% - 760px/2);
+            top: 252px;
+
+            background: rgba(37, 0, 37, 0.06);
+            mix-blend-mode: normal;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(160px);
+            /* Note: backdrop-filter has minimal browser support */
+
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .uptext {
+            position: relative;
+            width: max-content;
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 55px;
+
+            color: #FFFFFF;
+        }
+
+        .pre2 {
+            font-size: 12px;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .txt {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            color: #FC33FF;
+        }
+
+        .but {
+            font-family: 'Ubuntu';
+            height: fit-content;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            padding: 20px;
+            color: #FC33FF;
+            box-sizing: border-box;
+            border: none;
+            background: rgba(255, 255, 255, 0.04);
+            backdrop-filter: blur(123.5px);
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+            /* Note: backdrop-filter has minimal browser support */
+
+            border-radius: 40px;
+            transition-duration: .2s;
+        }
+
+        .prev {
+            position: relative;
+        }
+
+        .but:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            background: #FC33FF;
+            color: white;
+
+        }
+
+        #upload {
+            opacity: 0;
+            position: absolute;
+            z-index: -1;
+        }
+
+
+        .tab {
+            padding: 20px;
+            border: #FC33FF;
+        }
+
+        .step2 {
+            top: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            width: -webkit-fill-available;
+            justify-content: center;
+            align-content: center;
+            padding: 40px;
+            position: absolute;
+        }
+
+        .step2_div {
+            width: 466px;
+            height: 421px;
+            background: rgba(255, 255, 255, 0.04);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(123.5px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .wrapper {
+            position: aboslute;
+            font-family: 'Ubuntu';
+            height: fit-content;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1em;
+            padding: 5px;
+            color: #FFFFFF;
+
+
+        }
+
+        .text {
+            cursor: row-resize;
+        }
+
+        .item {
+            padding: 20px;
+
+        }
+
+        .small {
+            padding: 10px !important;
+            font-size: 10px !important;
+            border-radius: 5px !important;
+            margin: auto !important
+        }
+
+        .fa {
+            cursor: pointer;
+            align-items: center !important;
+            display: flex !important;
+        }
+
+        #files-area {
+            width: 30%;
+            margin: 0 auto;
+        }
+
+        .file-block {
+            border-radius: 10px;
+            background-color: rgba(144, 163, 203, 0.2);
+            margin: 5px;
+            color: white;
+            display: inline-flex;
+            padding: 10px !important;
+        }
+
+        .file-delete {
+            display: flex;
+            width: 24px;
+            color: initial;
+            background-color: #6eb4ff00;
+            font-size: large;
+            justify-content: center;
+            margin-right: 3px;
+            cursor: pointer;
+
+        }
+
+        .launch {
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .err {
+            position: aboslute;
+            font-family: 'Ubuntu';
+            border-radius:5px ;
+            height: fit-content;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 0.9em;
+            padding: 5px;
+            background-color: rgba(144, 163, 203, 0.2);
+            color: red;
+        }
